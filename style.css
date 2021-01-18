@@ -87,8 +87,11 @@ button:hover {
   #colorDisplay {
     font-size: 100%;
   }
-  button {
-    height: 50%;
-    padding: 0 0;
+  #message {
+    display: block;
+    width: 100%;
+  }
+  #score {
+    display: block;
   }
 }
