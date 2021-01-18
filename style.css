@@ -87,4 +87,7 @@ button:hover {
   #colorDisplay {
     font-size: 100%;
   }
+  button {
+    height: 1%;
+  }
 }
