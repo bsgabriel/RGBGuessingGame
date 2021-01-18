@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>RGB Guessing Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="menu">
+    <div class="titulo">
+      <h1>The Great
+      <br /> 
+      <span id="colorDisplay">RGB</span>
+      <br /> 
+      Color Game</h1>
+    </div>
+    <div id="stripe">
+      <button id="reset">New Colors</button>
+      <span id="message"></span>
+      <button class="difficulty">easy</button>
+      <button class="difficulty selected">hard</button>
+      <span id="score">score: </span>
+    </div>
+
+  </section>
+  <section class="main">
+    <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
