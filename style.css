@@ -94,4 +94,7 @@ button:hover {
   #score {
     display: block;
   }
+  button {
+    margin: 0 5px;
+  }
 }
