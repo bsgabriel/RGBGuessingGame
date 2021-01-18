@@ -83,7 +83,7 @@ button:hover {
   -moz-transition: background 0.3s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #colorDisplay {
     font-size: 100%;
   }
