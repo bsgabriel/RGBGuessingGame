@@ -28,14 +28,12 @@ function setDifficultyButtons()
     difficultyButtons[i].addEventListener('click', function(){
       difficultyButtons[0].classList.remove('selected');
       difficultyButtons[1].classList.remove('selected');
-      difficultyButtons[2].classList.remove('selected');
       this.classList.add('selected');
       if(this.textContent === 'easy')
       {
         numberOfSquares = 3;
       }
       else
-      if(this.textContent === 'hard')
       {
         numberOfSquares = 6;
       }
